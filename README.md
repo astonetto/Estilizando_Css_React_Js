@@ -39,10 +39,16 @@ color: #525252;
 
 ## Estilizando o CSS, dentro de um arquivo .CSS (Projeto básico do React, após criado o projeto, 2 Opção)
 
-Adiconei este comando abaixo olha que facil.
+Adiconei este comando abaixo, em h1 e h2, olha que facil.
 
 ```js
-style={{ color: "#919191" }}
+style={{ fontWeight: "100", color: "#919191", fontSize: "14px" }}
+```
+
+Adicionei este comando na div.
+
+```js
+style={{height:"50px",display:'flex',width:'100%',justifyContent:'space-between', alignItems:'center'}}
 ```
 
 Vou estilizar o css, direto neste aquivo aqui, App.js.
@@ -53,9 +59,21 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="Nome1">
-      <h1 style={{ color: "#919191" }}>Descrição 1</h1>
-      <h2 style={{ color: "#919191" }}>Descrição 2</h2>
+    <div
+      style={{
+        height: "50px",
+        display: "flex",
+        width: "100%",
+        justifyContent: "space-between",
+        alignItems: "center",
+      }}
+    >
+      <h1 style={{ fontWeight: "100", color: "#919191", fontSize: "14px" }}>
+        Descrição 1
+      </h1>
+      <h2 style={{ fontWeight: "100", color: "#919191", fontSize: "14px" }}>
+        Descrição 2
+      </h2>
     </div>
   );
 };
@@ -181,4 +199,35 @@ export const Botao = styled.button`
   margin: 0 1em;
   padding: 0.25em 1em;
 `;
+```
+
+## Estilizando o Css, dentro de um arquivo, JavaScript (3 Opção)
+
+Arquivo App.js
+
+```js
+import React from "react";
+import styled from "styled-components";
+
+const geral = styled.div`
+  background-color: black;
+
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: blue;
+  }
+`;
+
+function App() {
+  return (
+    <geral>
+      <h1>olá 1</h1>
+      <h2>Ola 2</h2>
+    </geral>
+  );
+}
+
+export default App;
 ```
