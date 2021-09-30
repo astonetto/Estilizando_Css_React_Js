@@ -83,6 +83,24 @@ export default App;
 
 ## Estilizando o CSS, dentro de um arquivo .CSS (Projeto básico do React, após criado o projeto, 3 Opção)
 
+Olha que facil adicionei no div, este comando
+
+```js
+style = { div };
+```
+
+Adicionei no h1, este comando
+
+```js
+style = { h1 };
+```
+
+Adicionei no h2, este comando
+
+```js
+style = { h2 };
+```
+
 ```js
 import React from "react";
 
