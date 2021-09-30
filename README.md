@@ -39,8 +39,13 @@ color: #525252;
 
 ## Estilizando o CSS, dentro de um arquivo .CSS (Projeto básico do React, após criado o projeto, 2 Opção)
 
-Vou estilizar o css, direto neste aquivo aqui.
-Arquivo App.js
+Adiconei este comando abaixo olha que facil.
+
+```js
+style={{ color: "#919191" }}
+```
+
+Vou estilizar o css, direto neste aquivo aqui, App.js.
 
 ```js
 import React from "react";
@@ -177,4 +182,3 @@ export const Botao = styled.button`
   padding: 0.25em 1em;
 `;
 ```
-# Estilizando_Css_React_Js
