@@ -81,6 +81,35 @@ const App = () => {
 export default App;
 ```
 
+## Estilizando o CSS, dentro de um arquivo .CSS (Projeto básico do React, após criado o projeto, 3 Opção)
+
+```js
+import React from "react";
+
+const div = {
+  minHeight: "500px",
+};
+const h1 = {
+  backgroundColor: "black",
+  color: "blue",
+};
+const h2 = {
+  backgroundColor: "black",
+  color: "white",
+};
+
+function App() {
+  return (
+    <div style={div}>
+      <h1 style={h1}>olá 1</h1>
+      <h2 style={h2}>Ola 2</h2>
+    </div>
+  );
+}
+
+export default App;
+```
+
 ## Estilizando o Css, dentro de um arquivo, JavaScript (1 Opção)
 
 Observação:
