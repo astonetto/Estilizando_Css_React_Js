@@ -209,7 +209,7 @@ Arquivo App.js
 import React from "react";
 import styled from "styled-components";
 
-const geral = styled.div`
+const Geral = styled.div`
   background-color: black;
 
   h1 {
@@ -222,10 +222,10 @@ const geral = styled.div`
 
 function App() {
   return (
-    <geral>
+    <Geral>
       <h1>olá 1</h1>
       <h2>Ola 2</h2>
-    </geral>
+    </Geral>
   );
 }
 
