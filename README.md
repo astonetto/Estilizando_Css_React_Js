@@ -278,3 +278,73 @@ function App() {
 
 export default App;
 ```
+
+## Estilizando o Css, Css-modules
+
+```js
+import React from "react";
+import "./styles.scss";
+
+function Card() {
+  return (
+    <div className="container">
+      <h1 className="title">Card title</h1>
+      <span className="description">Card description</span>
+    </div>
+  );
+}
+
+export default Card;
+```
+
+## Estilizando o css-modules no React
+
+...
+
+## Estilizando o Sass no React
+
+...
+
+## Estilizando o Less no React
+
+...
+
+## Estilizando o Css, tailwindcss
+
+Site:
+
+```js
+https://tailwindcss.com/docs/font-size
+```
+
+## Estilizando o Css, rebass
+
+Site:
+
+```js
+https://rebassjs.org/
+```
+
+## Estilizando o Css, boostrap
+
+Site:
+
+```js
+https://getbootstrap.com/
+```
+
+## Estilizando o Css, reacstrap
+
+Site:
+
+```js
+https://reactstrap.github.io/
+```
+
+## Estilizando o Css, react-bootstrap
+
+Site:
+
+```js
+https://react-bootstrap.github.io/
+```
