@@ -279,33 +279,15 @@ function App() {
 export default App;
 ```
 
-## Estilizando o Css, Css-modules
-
-```js
-import React from "react";
-import "./styles.scss";
-
-function Card() {
-  return (
-    <div className="container">
-      <h1 className="title">Card title</h1>
-      <span className="description">Card description</span>
-    </div>
-  );
-}
-
-export default Card;
-```
-
-## Estilizando o css-modules no React
+## Estilizando o css, css-modules
 
 ...
 
-## Estilizando o Sass no React
+## Estilizando o css, Sass
 
 ...
 
-## Estilizando o Less no React
+## Estilizando o css, Less
 
 ...
 
