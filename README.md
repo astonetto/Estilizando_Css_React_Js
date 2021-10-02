@@ -206,7 +206,7 @@ Arquivo App.js
 ```js
 import React from "react";
 
-import * as St from "./styles";
+import * as St from "./style";
 
 function App() {
   return (
