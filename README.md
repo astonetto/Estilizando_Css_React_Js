@@ -144,10 +144,10 @@ Arquivo App.js
 ```js
 import React from "react";
 
-import { Title } from "./styles";
-import { Paragrafo } from "./styles";
-import { Botao } from "./styles";
-import { Container } from "./styles";
+import { Title } from "./style";
+import { Paragrafo } from "./style";
+import { Botao } from "./style";
+import { Container } from "./style";
 
 function App() {
   return (
